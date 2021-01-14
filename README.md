@@ -67,8 +67,15 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 2) npm install
 3) npm install vue-router
 4) npm run watch
-
-
 5) composer require laravel/ui:^2.4
 6) php artisan ui vue --auth
+
+______________________________________
+https://tailwindcss.com/docs/guides/laravel
+
+7) npm install tailwindcss
+8) npx tailwindcss init
+
+
+
 
