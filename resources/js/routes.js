@@ -6,6 +6,7 @@ import LoadersAndAnimations from './components/LoadersAndAnimations'
 import Mascot from './components/Mascot'
 import Typography from './components/Typography'
 import Wallpapers from './components/Wallpapers'
+import NotFound from './components/NotFound'
 
 export default{
 
@@ -13,6 +14,8 @@ export default{
     linkActiveClass: "font-weight-bold h5",
 
     routes:[
+        {path: '*', component: NotFound},
+
         {path: '/logo', component: Logo},
         {path: '/logo-symbol', component: LogoSymbol},
         {path: '/colors', component: Colors},
