@@ -30,16 +30,16 @@
                     <h1>Airakaz</h1>
                 </header>
     
-                <main>
+                {{-- <main>
                     <aside class="d-flex">
                         <div>
                             <router-link to="/"><a>Home</a></router-link>
                         </div>
                         <div class="mx-3">
-                            <router-link to="/about"><a>About</a></router-link>
+                            <router-link to="/About"><a>About</a></router-link>
                         </div>
                     </aside>
-                </main>
+                </main> --}}
     
             </div>
            
@@ -48,18 +48,18 @@
                     <div class="col-md-4">
                         <h4>THE BRAND</h4>
                         <ul>
-                            <li>Logo</li>
-                            <li>Logo Symbol</li>
-                            <li>Colors</li>
-                            <li>Typography</li>
+                            <li><router-link to="/logo"><a>Logo</a></router-link></li>
+                            <li><router-link to="/logo-symbol"><a>Logo Symbol</a></router-link></li>
+                            <li><router-link to="/colors"><a>Colors</a></router-link></li>
+                            <li><router-link to="/typography"><a>Typography</a></router-link></li>
                         </ul>
 
                         <h4>Doosles</h4>
                         <ul>
-                            <li>Mascot</li>
-                            <li>Illustrations</li>
-                            <li>Loaders and Animations</li>
-                            <li>Wallpapers</li>
+                            <li><router-link to="/mascot"><a>Mascot</a></router-link></li>
+                            <li><router-link to="/illustrations"><a>Illustrations</a></router-link></li>
+                            <li><router-link to="/loaders-and-animations"><a>Loaders and Animations</a></router-link></li>
+                            <li><router-link to="/wallpapers"><a>Wallpapers</a></router-link></li>
                         </ul>
 
                     </div>

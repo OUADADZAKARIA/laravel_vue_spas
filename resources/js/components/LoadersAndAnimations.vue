@@ -1,6 +1,6 @@
 <template>
    <div class="container">
-        <p>About</p>
+        <h2>Loaders and Animations</h2>
    </div>
     
 </template>
@@ -8,3 +8,4 @@
 <script>
 export default {};
 </script>
+
