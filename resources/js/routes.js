@@ -6,15 +6,18 @@ import LoadersAndAnimations from './components/LoadersAndAnimations'
 import Mascot from './components/Mascot'
 import Typography from './components/Typography'
 import Wallpapers from './components/Wallpapers'
+import Cours from './components/Cours'
 import NotFound from './components/NotFound'
 
 export default{
 
     mode: 'history',
     linkActiveClass: "font-weight-bold h5",
-
+    
     routes:[
         {path: '*', component: NotFound},
+
+        {path: '/', component: Logo},
 
         {path: '/logo', component: Logo},
         {path: '/logo-symbol', component: LogoSymbol},
@@ -26,5 +29,6 @@ export default{
 
         {path: '/typography', component: Typography},
         {path: '/wallpapers', component: Wallpapers},
+        {path: '/cours', component: Cours},
     ]
 };
